@@ -1,0 +1,257 @@
+#logoutBtn {
+    display: none;
+    cursor: pointer;
+}
+
+.preHeader {
+    width: 100vw;
+    position: relative;
+    right: -50%;
+    margin-left: -50vw;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+    font-size: 18px;
+    gap: 30px;
+}
+
+.editContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fa-pen-to-square {
+    color: #fff;
+}
+.editMode {
+    color: #fff;
+    cursor: pointer;
+}
+
+.publishContainer {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+.publishContainer:hover {
+    background-color: #1d6053;
+    color: #fff;
+}
+
+.modaleContainer,
+.modaleAddPhoto {
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    width: 30%;
+}
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.599);
+}
+.closeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-xmark,
+.fa-arrow-left {
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    font-size: 20px;
+}
+.fa-arrow-left {
+    transition: all 0s;
+    visibility: hidden;
+}
+.fa-xmark:hover,
+.fa-arrow-left:hover {
+    color: red;
+}
+.modaleContent {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modaleContent p {
+    margin-bottom: 25px;
+}
+
+.modaleProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.editImgContainer {
+    width: 17%;
+    position: relative;
+}
+.modaleProjects img {
+    width: 100%;
+}
+.editBtnsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.fa-trash-can,
+.fa-arrows-up-down-left-right {
+    color: #fff;
+    background-color: black;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 12px;
+    margin-right: 2px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+.fa-trash-can:hover {
+    color: rgb(226, 59, 59);
+}
+.fa-arrows-up-down-left-right:hover {
+    color: rgb(75, 238, 238);
+}
+
+.editWorkBtn {
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.editWorkBtn:hover {
+    color: rgb(226, 59, 59);
+}
+
+.addPhotoBtn {
+    background-color: #1d6053;
+    border-radius: 25px;
+    padding: 15px 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.addPhotoBtn:hover {
+    background-color: #277e6c;
+}
+.deleteAllGallery {
+    color: rgb(226, 59, 59);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.deleteAllGallery:hover {
+    text-decoration: underline;
+}
+
+/*ADD PHOTO MODALE*/
+
+#secondModale {
+    display: none;
+}
+
+.addPhotoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.photoPreview {
+    background-color: #e8f1f6;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 80%;
+    gap: 10px;
+}
+.photoPreview label {
+    background-color: #cbd6dc;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #306685;
+    font-size: 18px;
+}
+.fa-image {
+    font-size: 3rem;
+    color: #b9c5cc;
+}
+.inputImg {
+    display: none;
+}
+.photoPreview p {
+    color: #444444;
+    font-size: 13px;
+}
+.previewImg {
+    display: none;
+    max-width: 50%;
+}
+.formTitle,
+.formCategory {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.formTitle input,
+.formCategory select {
+    border: 1px solid white;
+    outline: none;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.191);
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+.importProjectBtn {
+    background-color: #1d6053;
+    border-radius: 25px;
+    padding: 12px 25px;
+    color: #fff;
+    transition: all 0.2s ease;
+    width: 40%;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+input[type='submit' i]:disabled {
+    background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+    color: -internal-light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+    border-color: -internal-light-dark(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3));
+    border-radius: 25px;
+    padding: 12px 25px;
+    transition: all 0.2s ease;
+    width: 40%;
+    font-size: 18px;
+    outline: none;
+}
+.importProjectBtn:hover {
+    background-color: #277e6c;
+}
+/*FIN -- ADD PHOTO MODALE*/
