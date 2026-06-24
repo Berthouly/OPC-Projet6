@@ -1,5 +1,5 @@
 
-# Projet 6 OpenClassrooms - Application Web avec Base de Données
+# Projet OpenClassroom Sophie Bluel **- Application Web avec Base de Données
 
 Projet réalisé dans le cadre de ma formation OpenClassrooms.
 
