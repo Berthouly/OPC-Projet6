@@ -1,8 +1,39 @@
-# Portfolio-architecte-sophie-bluel
 
-Code du projet 6 d'intégrateur web.
+# Projet 6 OpenClassrooms - Application Web avec Base de Données
 
-## Information pour le lancer le code
+Projet réalisé dans le cadre de ma formation OpenClassrooms.
 
- - Lancer le backend depuis votre terminal en suivant les instruction du fichier ReadMe.
- - Si vous désirez afficher le code du backend et du frontend, faites le dans 2 instances de VSCode différentes pour éviter tout problème
+L'objectif était de développer une application web complète en JavaScript natif avec gestion et exploitation des données.
+
+## Objectifs pédagogiques
+
+- Manipuler des données dynamiques
+- Concevoir une architecture JavaScript maintenable
+- Interagir avec une base de données
+- Développer une application sans framework
+
+## Technologies utilisées
+
+- HTML
+- CSS
+- JavaScript 
+- API REST
+- Base de données
+
+## Fonctionnalités
+
+- Récupération des données depuis une API
+- Affichage dynamique du contenu
+- Filtrage des données
+- Gestion des interactions utilisateur
+
+## Compétences développées
+
+- Programmation orientée objet en JavaScript
+- Requêtes HTTP
+- Manipulation du DOM
+- Organisation d'un projet front-end
+
+## Lancer le projet
+
+Suivre les instructions du projet OpenClassrooms fournies dans le dépôt.
